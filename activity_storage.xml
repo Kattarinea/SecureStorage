@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@color/black"
+    tools:context=".MainActivity">
+
+
+
+    <ListView
+        android:id="@+id/listview"
+        style="@style/Widget.AppCompat.Light.ListView.DropDown"
+        android:layout_width="361dp"
+        android:layout_height="680dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:background="@color/grey"
+        android:backgroundTint="@color/grey"
+        android:cacheColorHint="@color/grey"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:divider="@color/white"
+        android:textColor="@color/white"
+        android:dividerHeight="1dp"
+        android:listSelector="@color/orange" />
+
+</RelativeLayout>
